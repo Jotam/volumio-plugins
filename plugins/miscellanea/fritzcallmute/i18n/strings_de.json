@@ -1,12 +1,12 @@
 {
   "PLUGIN_CONFIGURATION":"FritzCallMute Einstellungen",
-  "DESC":"Der FritzBox Router hat einen eingebauten Anrufmonitor. Diese Plugin unterbricht das Abspielen wenn der Anrufmonitor einen Anruf (eingehend oder ausgehend) signalisiert. Nach dem Auflegen wird das Abspielen fortgesetzt. Der Anrufmonitor muss in der FritzBox erst aktiviert werden. Das kann z.B. durch wählen der Nummer #96*5* erreicht werden.",
+  "DESC":"FritzBox-Router haben einen eingebauten Anrufmonitor. Dieses Plugin unterbricht die Musikwiedergabe, wenn der Anrufmonitor einen Anruf (eingehend oder ausgehend) signalisiert. Nach dem Ende des Telefonats wird die Wiedergabe automatisch fortgesetzt. Der Anrufmonitor muss in der FritzBox erst aktiviert werden. Das kann z.B. durch Wählen der Nummer #96*5* erreicht werden.",
   "SAVE":"Speichern",
   "SETTINGS" : "Einstellungen",
-  "IPDOC" : "IP oder DNS-name des FritzBox Routers im lokalen Netzwerk",
+  "IPDOC" : "IP oder DNS-Name der FritzBox im lokalen Netzwerk",
   "PORTDOC" : "Port des Anrufmonitors der FritzBox",
-  "IP" : "IP",
-  "PORT" : "Port",
-  "WAITDOC" : "Zeit in Sekunden die nach dem Auflegen gewartet werden soll bis weiter abgespielt werden soll",
+  "IP" : "IP-Adresse der FritzBox",
+  "PORT" : "Port des Anrufmonitors",
+  "WAITDOC" : "Zeit in Sekunden, die nach dem Ende des Telefonats gewartet werden soll, bis die Musikwiedergabe erneut startet.",
   "WAIT" : "Wartezeit"
 }
